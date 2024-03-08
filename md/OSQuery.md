@@ -2,6 +2,8 @@
 
 ### Installation (Linux)
 
+[Instructions for Different Distros](https://osquery.io/downloads/official/5.11.0)
+
 1. `sudo apt-get update`
 
 2. `sudo apt-get install osquery`
@@ -17,6 +19,42 @@
 7. `Configuration files for osquery are usually found in /etc/osquery/`
 
 Screenshots TBD
+
+
+
+### Installation (Windows via Chocolatey)
+
+[Supported Versions](https://chocolatey.org/packages/osquery/)
+
+1. `choco install osquery`
+   
+   1. This installs the binaries, example packs, example configuration, and an OpenSSL certificate bundle to `C:\Program Files\osquery`
+
+2. To install a Windows SYSTEM-level service, use `choco install osquery --params='/InstallService'`
+
+
+
+### Running OSQuery
+
+On all playforms, the command `osqueryi` will launch the interactive shell.
+
+
+
+Linux Service:
+
+`sudo systemctl start osqueryd`
+
+`sudo systemctl enable osqueryd`
+
+
+
+Windows Service:
+
+`Start-Service osqueryd` - Powershell
+
+`sc.exe start osqueryd` - CMD
+
+
 
 ### Overview of OSQuery
 
