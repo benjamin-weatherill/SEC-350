@@ -2,8 +2,6 @@
 
 ## **Course Syllabus**
 
-
-
 **Instructor Info:**   **Name**: Syed Noaman Ali  
    **Email**: sali@champlain.edu  
    **Office Hours:** Monday and Thursday: 1PM-2PM OR Wednesday: 12PM-1PM OR By Appointment     
